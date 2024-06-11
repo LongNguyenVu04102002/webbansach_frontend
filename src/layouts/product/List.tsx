@@ -1,5 +1,6 @@
 import React from "react";
 import BookProps from "./components/BookProps";
+import Book from "../../models/Book";
 // import Book from "https://titv.vn/models/Book";
 
 const List: React.FC = () => {
@@ -10,7 +11,7 @@ const List: React.FC = () => {
             description: 'Description for Book 1',
             originalPrice: 50000,
             price: 45000,
-            imageUrl: 'https://titv.vn/../images/books/1.png',
+            imageUrl: './../../../images/books/book2.jpg',
         },
         {
             id: 1,
@@ -18,7 +19,7 @@ const List: React.FC = () => {
             description: 'Description for Book 2',
             originalPrice: 50000,
             price: 45000,
-            imageUrl: './https://titv.vn/../images/books/2.png',
+            imageUrl: './../../../images/books/book2.jpg',
         },
         {
             id: 1,
